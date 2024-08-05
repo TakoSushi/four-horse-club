@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Golos+Text:regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+@import url(./blocks/header/header_title/header_title.css);
+
+:root {
+  --common-font: 'Golos Text', system-ui, Helvetica, Arial, sans-serif;
+  --header-font: 'Merriweather', system-ui, Helvetica, Arial, sans-serif;
+  --second-font: 'Montserrat', system-ui, Helvetica, Arial, sans-serif;
+
+  --fill-color: #E9DED4;
+  --basic-wigth-color: #FFFFFF;
+  --basic-black-color: #1F1F1F;
+  --basic-text-color: #313131;
+  --basic-red-color: #F54932;
+  --basic-blue-color: #3057A2 font-family: var(--common-font), system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--basic-text-color, #313131);
+  background-color: var(--basic-wigth-color, #FFFFFF);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
